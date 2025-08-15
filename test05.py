@@ -9,19 +9,19 @@ print (f'คุณเกิดปี {year_born}) ตอนนี้คุณอ
 print ('--------------------------------')
 #ใฃ้ มม
 print ('--------------------------------')
-print('สวสดีคุณ',fullname)
+print('สวัสดีคุณ',fullname)
 print('คุณเกิดปี',year_born)
 print('ตอนนี้คุณอายุ',2568 - int(year_born))  
 print ('--------------------------------')
 #ใฃ้ +
 print ('--------------------------------')
-print('สวสดีคุณ' + fullname)
+print('สวัสดีคุณ' + fullname)
 print('คุณเกิดปี' + year_born)
 print('ตอนนี้คุณอายุ' + str(2568 - int(year_born)))
 print ('--------------------------------')
-#.\h {}
+# ใฃ้ format
 print ('--------------------------------')
-print(f'สวสดีคุณ {fullname}')
-print(f'คุณเกิดปี {year_born}')
-print(f'ตอนนี้คุณอายุ {2568 - int(year_born)}')
+print('สวัสดีคุณ {}'.format(fullname))
+print('คุณเกิดปี {}'.format(year_born))
+print('ตอนนี้คุณอายุ {}'.format(2568 - int(year_born)))
 print ('--------------------------------')
