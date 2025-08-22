@@ -2,7 +2,7 @@
 # string 
 print ("hello world")
 print ("HI")
-print ("'''hey'''")
+print ('''hey''')
 print ("""Hum""")
 
 #number
